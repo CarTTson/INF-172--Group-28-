@@ -5,21 +5,17 @@ This project is a simple website dedicated to highlighting the importance of AI 
 
 ## Project Structure
 ```
-ai-education-website
-├── src
-│   ├── index.html          # Main entry point of the website
-│   ├── why-ai-matters.html # Page detailing why AI education matters
-│   ├── css
-│   │   ├── style.css       # Main styles for the website
-│   │   └── responsive.css   # Responsive styles for different screen sizes
-│   ├── js
-│   │   └── flippable-cards.js # JavaScript for card flipping functionality
-│   └── images
-│       ├── card-1.jpg     # Placeholder image for the first card
-│       ├── card-2.jpg     # Placeholder image for the second card
-│       └── card-3.jpg     # Placeholder image for the third card
-├── README.md               # Documentation for the project
-└── .gitignore              # Files and directories to ignore in version control
+INF-172--Group-28-/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   ├── card-1.jpg
+│   ├── card-2.jpg
+│   └── ...
+├── README.md
 ```
 
 ## Setup Instructions
