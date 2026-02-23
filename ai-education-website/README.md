@@ -8,10 +8,8 @@ This project is a simple website dedicated to highlighting the importance of AI 
 ai-education-website
 ├── src
 │   ├── index.html          # Main entry point of the website
-│   ├── why-ai-matters.html # Page detailing why AI education matters
 │   ├── css
 │   │   ├── style.css       # Main styles for the website
-│   │   └── responsive.css   # Responsive styles for different screen sizes
 │   ├── js
 │   │   └── flippable-cards.js # JavaScript for card flipping functionality
 │   └── images
