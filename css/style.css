@@ -423,10 +423,45 @@ body {
 
 /* Newsletter Section */
 .newsletter {
-    background: linear-gradient(135deg, #17a2a2 0%, #1d9999 100%);
-    color: white;
+    /* switched to plain white background */
+    background-color: white;
+    color: #333; /* darker text for contrast */
     padding: 60px 20px;
     text-align: center;
+}
+
+/* adjust inner elements for new light theme */
+.newsletter h2,
+.newsletter > p {
+    color: #333;
+}
+
+.newsletter-form input {
+    /* match podcast theme color so it's visible on white background */
+    color: #17a2a2;
+    background-color: #b4e8e8;;
+}
+
+/* keep a teal border on the subscribe button too */
+.newsletter .btn-primary {
+    background-color: #17a2a2;
+    color: white;
+    border: 1px solid #17a2a2;
+}
+
+.newsletter .btn-primary:hover {
+    background-color: #138585;
+    border-color: #138585;
+}
+
+/* make primary button in newsletter section stand out */
+.newsletter .btn-primary {
+    background-color: #17a2a2;
+    color: white;
+}
+
+.newsletter .btn-primary:hover {
+    background-color: #138585;
 }
 
 .newsletter h2 {
