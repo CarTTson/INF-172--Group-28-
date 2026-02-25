@@ -379,7 +379,8 @@ body {
 }
 
 .application-form {
-    max-width: 600px;
+    /* match the width of .guest-content (800px) for consistency */
+    max-width: 800px;
     margin: 0 auto;
     background-color: white;
     padding: 2rem;
