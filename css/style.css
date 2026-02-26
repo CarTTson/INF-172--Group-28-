@@ -59,7 +59,7 @@ body {
 
 .subscribe-btn {
     background-color: #17a2a2;
-    color: white;
+    color: white !important;
     padding: 0.5rem 1.5rem;
     border-radius: 25px;
     border: none;
@@ -75,18 +75,18 @@ body {
 .hero {
     background: linear-gradient(135deg, #17a2a2 0%, #1d9999 100%);
     color: white;
-    padding: 100px 20px;
+    padding: 160px 20px 180px 20px;
     text-align: center;
-    min-height: 500px;
+    min-height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 1.2rem;
+    font-weight: 800;
 }
 
 .hero-content p {
@@ -287,9 +287,14 @@ body {
 }
 
 .about-image img {
-    width: 100%;
-    border-radius: 10px;
+    width: 120%;
+    max-width: none;
+    border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-image {
+    margin-right: 8rem;
 }
 
 .about-content p {
