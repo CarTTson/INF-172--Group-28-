@@ -170,6 +170,11 @@ body {
     perspective: 1000px;
 }
 
+/* add a small teal arrow at the bottom center of the front face to hint flip */
+.stat-card {
+    position: relative;
+}
+
 .stat-card-inner {
     position: relative;
     width: 100%;
@@ -198,6 +203,22 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* decorative teal arrow on the front to indicate flipability */
+.stat-card-front::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 12px solid #17a2a2; /* teal color */
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.08));
+    pointer-events: none;
+}
+
 .stat-card-front h3 {
     font-size: 3rem;
     color: #17a2a2;
@@ -214,13 +235,33 @@ body {
     background: linear-gradient(135deg, #17a2a2 0%, #1d9999 100%);
     color: white;
     transform: rotateY(180deg);
+    /* align content at the top and center horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     text-align: center;
+    padding-top: 1.6rem;
 }
 
 .stat-card-back p {
     font-size: 0.95rem;
     line-height: 1.5;
     color: white;
+    margin: 0 1rem 1.25rem; /* keep some spacing from edges and source */
+}
+
+/* source link positioned bottom-left on the back of stat cards */
+.stat-card-back .source {
+    position: absolute;
+    left: 18px;
+    bottom: 14px;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.95);
+}
+.stat-card-back .source a {
+    color: rgba(255,255,255,0.95);
+    text-decoration: underline;
 }
 
 /* About Section */
