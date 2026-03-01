@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
 html {
     /* animate scrolling for anchor links */
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Jua', sans-serif;
+    font-size: 1.2rem;
     line-height: 1.6;
     color: #333;
 }
@@ -48,7 +51,7 @@ body {
 }
 .logo-text {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #17a2a2;
 }
 
@@ -64,7 +67,7 @@ body {
     color: #333;
     font-weight: 500;
     transition: color 0.3s;
-    font-size: 1.18rem;
+    font-size: 1.3rem;
 }
 
 .nav-menu a:hover {
@@ -79,7 +82,7 @@ body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-size: 1.18rem;
+    font-size: 1.3rem;
 }
 
 .subscribe-btn:hover {
@@ -130,6 +133,7 @@ body {
 .btn-primary {
     background-color: white;
     color: #17a2a2;
+    font-family: 'Jua', sans-serif;
 }
 
 .btn-primary:hover {
