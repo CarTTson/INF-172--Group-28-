@@ -1,3 +1,110 @@
+@media (max-width: 1100px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    .hero-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-highschoolers {
+        position: static !important;
+        display: block;
+        margin: 32px auto 0 auto;
+        left: unset !important;
+        bottom: unset !important;
+        width: 60vw;
+        max-width: 320px;
+        z-index: 2;
+        pointer-events: none;
+    }
+}
+@media (max-width: 1000px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 40px;
+    }
+    .hero-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-highschoolers {
+        position: static !important;
+        display: block;
+        margin: 32px auto 0 auto;
+        left: unset !important;
+        bottom: unset !important;
+        width: 50vw;
+        max-width: 320px;
+        z-index: 2;
+        pointer-events: none;
+    }
+}
+@media (max-width: 900px) {
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding-top: 40px;
+        }
+        .hero-content {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .hero-buttons {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .hero-highschoolers {
+            position: static !important;
+            display: block;
+            margin: 32px auto 0 auto;
+            left: unset !important;
+            bottom: unset !important;
+            width: 60vw;
+            max-width: 320px;
+            z-index: 2;
+            pointer-events: none;
+        }
+    .hero-highschoolers {
+        position: static !important;
+        display: block;
+        margin: 32px auto 0 auto;
+        left: unset !important;
+        bottom: unset !important;
+        width: 60vw;
+        max-width: 320px;
+        z-index: 2;
+        pointer-events: none;
+    }
+}
 @media (max-width: 600px) {
     .hero {
         display: flex;
