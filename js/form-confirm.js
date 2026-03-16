@@ -1,3 +1,24 @@
+        // Podcast List and Episodes links notification
+        const podcastListBtn = document.getElementById('podcast-list-btn');
+        if (podcastListBtn) {
+            podcastListBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                alert('Stay tuned! Episodes coming soon.');
+            });
+        }
+        document.querySelectorAll('.episodes-link').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                alert('Stay tuned! Episodes coming soon.');
+            });
+        });
+    // Legal links notification
+    document.querySelectorAll('.legal-link').forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+            alert('Legal information to be determined. Please check back soon.');
+        });
+    });
 document.addEventListener('DOMContentLoaded', () => {
     // Application form confirmation
     const form = document.querySelector('.application-form');
