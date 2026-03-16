@@ -496,13 +496,13 @@ body {
 
 
 .btn {
-    padding: 1.2rem 3rem;
+    padding: 0.8rem 2rem;
     border: none;
-    border-radius: 32px;
-    font-size: 1.5rem;
-    font-weight: 700;
+    border-radius: 25px;
+    font-size: 1rem;
     cursor: pointer;
     transition: all 0.3s;
+    /* font-weight: 600; removed to avoid bold fonts */
 }
 
 
@@ -510,8 +510,8 @@ body {
     background-color: white;
     color: #17a2a2;
     font-family: 'Jua', sans-serif;
-    font-size: 1.7rem;
-    padding: 1.2rem 3.2rem;
+    font-size: 1.25rem;
+    padding: 0.85rem 2.2rem;
 }
 
 .btn-primary:hover {
@@ -526,8 +526,17 @@ body {
     color: white;
     border: 2px solid white;
     font-family: 'Jua', sans-serif;
+    font-size: 1.25rem;
+    padding: 0.85rem 2.2rem;
+}
+/* Make only hero section buttons larger */
+.hero-buttons .btn,
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
     font-size: 1.7rem;
     padding: 1.2rem 3.2rem;
+    border-radius: 32px;
+    font-weight: 700;
 }
 
 .btn-secondary:hover {
